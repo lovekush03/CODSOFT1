@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    height:15vh;
+}
+.nav-bar{
+    display:flex;
+    justify-content:start;
+    width:90vw;
+    flex-direction:column;
+    padding-top:2rem;
+}
+.nav-container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:80vw;
+    justify-content: space-between;
+}
+.left-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.rightbutton{
+    font-size: 1.3rem;
+    display:flex;
+    font-weight: 800;
+    gap:1rem;
+    align-self:flex-end
+    /* background-color: aqua; */
+    /* transition:background-color 1s ease-in-out; */
+}
+.rightbutton p:hover{
+    color:rgb(65, 55, 212)
+}
+main{
+    /* background-color: black; */
+    width:100%;
+}
+.section1{
+    background-color:  rgb(114, 50, 189);
+    display:flex;
+    justify-content: center;
+}
+.section-1-container{
+    display: flex;
+    padding-top:2rem;
+    width:80vw;
+    justify-content: space-evenly;
+    padding-bottom:2rem;
+}
+.section-1-container img{
+    height:70vh;
+}
+.right-section-1{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+.right-section-1 .main-text{
+    color:rgb(51, 141, 225);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.right-section-1 .sub-text{
+    color:white
+}
+.small{
+    font-size:0.8rem;
+}
+.large{
+    font-size:1rem;
+    font-weight:bold;
+}
+.right-section-1 button{
+    background-color: rgb(51, 141, 225);
+    width:10vw;
+    color: white;
+    padding:0.5rem;
+    border:none;
+    border-radius:0.3rem;
+}
+/* SECTION2 */
+.card-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:5rem;
+    gap:3rem;
+}
+.card1{
+    width:45vw;
+}
+.card1 .title{
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:1rem;
+}
+.card1 .content{
+    font-size:0.87rem;
+    color:grey;
+    margin-bottom:1.5rem;
+}
+.card1 button{
+    background-color: rgb(51, 141, 225);
+    width:10vw;
+    color: white;
+    padding:0.5rem;
+    border:none;
+    border-radius:0.3rem;
+    font-weight:bold;
+}
+/* SECTION3 */
+.section-3{
+    overflow:hidden;
+    padding-bottom: 3rem;
+}
+.section-3-container{
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.section-3-cards{
+    display: flex;
+    margin-top:2rem;
+    gap:1.5rem;
+    
+}
+.section-3-card-1{
+    width:22vw;
+    background-color: rgb(215, 214, 214);
+    box-sizing: border-box;
+    height: 40vh;
+}
+.section-3-card-1 i{
+    margin-left:1.5rem;
+    font-size: 2.5rem;
+    margin-top:1.5rem;
+}
+.section-3-card-1 .heading{
+    margin-left:1.5rem;
+    margin-top:2.5rem;
+    font-weight: bold;
+}
+.section-3-card-1 .para{
+    font-size:0.7rem;
+    margin-top:0.5rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+    color:gray;
+    margin-bottom:1rem;
+}
+.section-3-card-1 a{
+    /* margin-top:5rem; */
+    margin-left:1.5rem;
+    font-size:0.7rem;
+    text-decoration: none;
+    color:rgb(51, 141, 225);
+}
+
+/* SECTION 4 */
+.section-4{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(215, 214, 214);
+     padding-bottom:3rem;
+     padding-top:2rem;
+}
+.section4-container{
+    width:80vw;
+    /* padding-bottom:3rem; */
+}
+.project-cards{
+    display:flex;
+    gap:3rem;
+    margin-top:2.5rem;
+}
+.left-project-card{
+    box-sizing: border-box;
+    background-color: rgb(251, 251, 251);
+    height:68vh;
+}
+.left-project-card img{
+    width:30vw;
+}
+.project-card-content{
+    width:90%;
+    margin-left:1rem;
+    margin-top:1rem;
+    font-weight:700;
+    margin-bottom:1rem;
+}
+.left-project-card a{
+    margin-left:1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.right-project-card{ 
+    background-color: rgb(251, 251, 251);
+}
+.right-project-card img{
+    width:30vw;
+    height:48vh
+}
+.right-project-card a{
+    margin-left:1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+/*Section5*/
+.section-5{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(215, 214, 214);
+    padding-bottom:3rem;
+}
+.image-container{
+    width:61vw;
+}
+.image-container img{
+    width:20vw;
+    height:40vh;
+}
+/* Section-6 */
+.section-6{
+    background-color: rgb(0, 0, 0);
+    height:57vh;
+}
+.section-6 h1{
+    padding-top:2rem;
+    margin-left:10rem;
+    color:white;
+}
+.section-6 form{
+    margin-left:10rem;
+    margin-top:1.5rem;
+    height:4vh;
+    width:35vw
+}
+.section-6 form input{
+    width:35vw;
+    border:2px solid gray;
+    padding:0.3rem;
+    background-color: black;
+    margin-bottom:0.5rem;
+    border-radius:0.2rem;
+}
+.section-6 form input::placeholder{
+    color:gray;
+}
+.section-6 form textarea{
+    width:35vw;
+    border:2px solid gray;
+    padding:0.3rem;
+    background-color: black;
+    border-radius:0.2rem;
+}
+.section-6 form textarea::placeholder{
+    color:gray;
+}
+.section-6 form button{
+    width: 35vw;
+    text-align: center;
+    padding:0.5rem;
+    background-color:rgb(51, 141, 225);
+    border:2px solid rgb(51, 141, 225);
+    border-radius:0.2rem;
+    color:white;
+    font-weight:bold;
+}
+/* FOOTER */
+footer{
+    background-color: rgb(215, 214, 214);
+    text-align: center;
+    color:rgb(51, 141, 225);
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-size:0.8rem;
+    font-weight:bold;
+}
